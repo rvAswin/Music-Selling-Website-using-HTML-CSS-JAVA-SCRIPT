@@ -10,17 +10,27 @@
 </head>
 <body>
 
-    <!-- Navigation Bar -->
-    <!-- <div class="navbar navbar-default">
-        <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#products">Products</a></li>
-            <li><img class="logo" src="images/Ultraboost.jpg" alt=""></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#contact">Contact Us</a></li>
-        </ul>
-    </div> -->
-    <!-- Banner -->
+    <div class="navbar">
+        <div class="navbar-container">
+            <div class="navbar-logo">
+                <!-- <img src="your-logo.png" alt="Logo"> -->
+                <h1>MUSIFY</h1>
+            </div>
+            <div class="navbar-links" id="navbar-links">
+                <ul>
+                    <!-- <li><a href="#products">Products</a></li> -->
+                    <li><a href="newindex.html">HOME</a></li>
+                    <!-- <li><a href="#contact">Contact Us</a></li> -->
+                </ul>
+            </div>
+            <div class="navbar-toggle" id="navbar-toggle">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+        </div>
+    </div>
+    
     <div class="banner">
         <h1>"Play it again &#9835, for the first time."</h1>
     </div>
@@ -82,6 +92,8 @@
         <p>🎵 MUSIFY-ENHANCE THE REAL SOUNDS OF MUSIC</p>
     </footer>
     
+
+    
     <style>
        .banner h1 {
             opacity: 0;
@@ -96,7 +108,77 @@
                 opacity: 1;
             }
         }
+
+
+
+        
+.navbar {
+    background-color: #333;
+    padding: 15px 0;
+}
+
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-logo img {
+    max-width: 100px;
+}
+
+.navbar-links {
+    display: none;
+}
+
+.navbar-links ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.navbar-links li {
+    margin: 0 15px;
+}
+
+.navbar-links a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+}
+
+.navbar-toggle {
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 20px;
+}
+
+.bar {
+    width: 30px;
+    height: 3px;
+    background-color: #fff;
+}
+
+
+
     </style>
+
+
+<script>
+    const navbarLinks = document.getElementById('navbar-links');
+    const navbarToggle = document.getElementById('navbar-toggle');
+
+    navbarToggle.addEventListener('click', () => {
+        navbarLinks.style.display = navbarLinks.style.display === 'none' ? 'flex' : 'none';
+    });
+    
+
+
+</script>
+
 </div>
 
 </body>
