@@ -7,13 +7,6 @@ Welcome to MusicShop, an immersive online platform designed for music enthusiast
 - 📫 How to reach me ...INSTAGRAM: @aswin._.04 ,Mail ID: rajavikaramaaswin@gmail.com
 
 
-
-
-
-
-
-
-
 MusicShop: Your Ultimate Destination for Music Discovery and Purchase
 Welcome to MusicShop, an immersive online platform designed for music enthusiasts who want a seamless and enjoyable experience when buying and discovering new songs. Developed with a combination of HTML, JavaScript, and CSS, MusicShop offers a visually appealing and feature-rich environment for users to explore, purchase, and build their music collections.
 
@@ -44,7 +37,7 @@ CSS
 The visual appeal of MusicShop is crafted with CSS, ensuring a cohesive and attractive design that aligns with the platform's identity.
 
 Getting Started
-Clone the repository: git clone https://github.com/rc/MusicShop.git
+Clone the repository: git clone (https://github.com/rvAswin/Music-Selling-Website-using-HTML-CSS-JAVA-SCRIPT/blob/80581adf909643d448ff6d31d659776d364e92a5/README.md)
 
 Open index.html in your preferred web browser.
 
